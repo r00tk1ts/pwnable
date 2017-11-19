@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/11/6 15:35:23。
+     1>项目“E:\pwn2exploit\dep_close\dep_close\dep_close.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\pwn2exploit\dep_close\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\dep_close.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\pwn2exploit\dep_close\Release\dep_close.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\dep_close.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\pwn2exploit\dep_close\Release\dep_close.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\pwn2exploit\dep_close\Release\dep_close.lib" /MACHINE:X86 Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         dep_close.vcxproj -> E:\pwn2exploit\dep_close\Release\dep_close.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\pwn2exploit\dep_close\Release\dep_close.exe;#1" /manifest Release\dep_close.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\dep_close.unsuccessfulbuild”。
+         正在对“Release\dep_close.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\pwn2exploit\dep_close\dep_close\dep_close.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.51

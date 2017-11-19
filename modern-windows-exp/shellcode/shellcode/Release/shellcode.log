@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/9/26 19:05:05。
+     1>项目“E:\pwn2exploit\shellcode\shellcode\shellcode.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\shellcode.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         shellcode.vcxproj -> E:\pwn2exploit\shellcode\Release\shellcode.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\shellcode.unsuccessfulbuild”。
+         正在对“Release\shellcode.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\pwn2exploit\shellcode\shellcode\shellcode.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.04
